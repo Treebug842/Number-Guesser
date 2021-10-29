@@ -4,9 +4,13 @@ Just wanted to make a small terminal game in C++, only works in windows (used th
 
 ## How to Compile
 
-`windres resource.rc -O coff -o resource.res`
+```
+windres resource.rc -O coff -o resource.res
+```
 
-`g++ main.cpp -o Guesser.exe resource.res -w -static -mconsole`
+```
+g++ main.cpp -o Guesser.exe resource.res -w -static -mconsole
+```
 
 ## Screenshots
 
